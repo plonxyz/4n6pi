@@ -42,7 +42,7 @@
    - Power on the Pi and wait for the green ACT LED to turn off
 
 4. Connect the target disk:
-   - connect the target disk to the top USB3.0 port
+   - Connect the target disk to the top USB3.0 port
    - For Disk Mode, use bottom USB3.0 for destination disk
    - When using Waveshare USB header, refer to the image below:
 
