@@ -1,0 +1,9 @@
+[Unit]
+Description= starting usb handler by udev
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/usb-handler.sh
+
+[Install]
+WantedBy=multi-user.target
