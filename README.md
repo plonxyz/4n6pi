@@ -35,13 +35,16 @@
    - Modify `Imager_config.yaml` as needed
 
 2. Burn the image to an SD card:
+   - Due to GitHub's file-size limit of 2GB, you can download it from my Proton Drive.
+      [4n6pi-5-v1.img](https://drive.proton.me/urls/VWBPQ3N9YR#xg2opxMTqWjK) \
+      SHA256 Checksum : 3c998d668368b377e71e52a0f684ee87187992f534cba50d705e20bf2044b0e0  4n6pi-5-v1.img
    - Use Raspberry Pi Imager to set hostname and console password (default hostname: 4n6pi / username: pi , password: 4n6pi)
 
-3. Prepare the Raspberry Pi:
+4. Prepare the Raspberry Pi:
    - Insert the configuration USB stick into a USB2.0 port
    - Power on the Pi and wait for the green ACT LED to turn off
 
-4. Connect the target disk:
+5. Connect the target disk:
    - Connect the target disk to the top USB3.0 port
    - For Disk Mode, use bottom USB3.0 for destination disk
    - When using Waveshare USB HAT, refer to the image below:
