@@ -70,7 +70,7 @@ LCD display (if connected) will show current state.
 If issues occur:
 - Check all connections
 - Verify configuration stick creation
-- Login via ssh (ssk-key needed) or via console to check system logs at `/var/log/acquire.log` and `/var/log/handler.log`
+- Login via ssh (ssh-key needed) or via console to check system logs at `/var/log/acquire.log` and `/var/log/handler.log`
 
 ## Contributing
 
