@@ -25,7 +25,7 @@
 - Raspberry Pi 5
 - USB storage device for configuration file
 - Power supply for Raspberry Pi
-- (Recommended for S3 mode) PCIe SSD Base / Hat
+- (Recommended for S3 mode) PCIe SSD Base / HAT
 - (Recommended for Disk Mode; providing dedicated USB power) [USB 3.2 Gen1 HUB HAT from Waveshare](https://www.waveshare.com/product/usb-3.2-gen1-hub-hat.htm) 
 
 ## Setup and Usage
@@ -44,7 +44,7 @@
 4. Connect the target disk:
    - Connect the target disk to the top USB3.0 port
    - For Disk Mode, use bottom USB3.0 for destination disk
-   - When using Waveshare USB header, refer to the image below:
+   - When using Waveshare USB HAT, refer to the image below:
 
 <p align="left">
   <img src="https://github.com/plonxyz/4n6pi/blob/main/weaveshare-HAT.jpg" alt="Waveshare USB header">
