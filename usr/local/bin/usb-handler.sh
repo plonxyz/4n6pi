@@ -114,7 +114,7 @@ main() {
                 if run_imager_script "/usr/local/bin/disk_mount.sh"; then
                     log_message "disk_mount.sh completed successfully"
                 else
-                    log_message "Error: copy_usb.sh failed"
+                    log_message "Error: disk_mount.sh failed"
                     lcd_write "     ERROR \n COPY FAILED"
                 fi
             else
