@@ -112,7 +112,7 @@ main() {
             lcd_write "     4n6pi \n IMAGE TO DISK "
             if [ -n "$SOURCE_DEVICE" ] && [ -n "$DESTINATION_DEVICE" ]; then
                 if run_imager_script "/usr/local/bin/disk_mount.sh"; then
-                    log_message "copy_usb.sh completed successfully"
+                    log_message "disk_mount.sh completed successfully"
                 else
                     log_message "Error: copy_usb.sh failed"
                     lcd_write "     ERROR \n COPY FAILED"
