@@ -23,6 +23,7 @@ LOGFILE="/var/log/acquire.log"
 USBPORT1_PATH_TAG_USB2="platform-xhci-hcd_1-usb-0_1_3_1_0-scsi-0_0_0_0"
 USBPORT1_PATH_TAG_USB3="platform-xhci-hcd_1-usb-0_1_1_0-scsi-0_0_0_0"
 SEGMENT_SIZE="2199023255552"
+LCD_WRITE_SCRIPT="/usr/local/bin/lcd-write.sh"
 
 # Create log file and set permissions
 
