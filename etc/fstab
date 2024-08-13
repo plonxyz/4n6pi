@@ -1,0 +1,4 @@
+proc            /proc           proc    defaults          0       0
+PARTUUID=57b3bdcc-01  /boot/firmware  vfat    defaults          0       2
+PARTUUID=57b3bdcc-02  /               ext4    defaults,noatime  0       1
+UUID=937C-8BC2 /mnt/usb vfat defaults 0 2
