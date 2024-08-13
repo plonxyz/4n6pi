@@ -26,6 +26,7 @@ USB_MOUNT_PATH="/mnt/usb"
 YAML_FILE="$USB_MOUNT_PATH/Imager_config.yaml"
 S3_CONFIG_FILE="/root/.s3cfg"
 SEGMENT_SIZE="2199023255552"
+LCD_WRITE_SCRIPT="/usr/local/bin/lcd-write.sh"
 
 # Functions
 log() {
